@@ -1,0 +1,31 @@
+.button-wrapper {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    background-color: #e0e1e6;
+    color: #888;
+    flex: 1;
+    cursor: pointer; 
+    
+    /* outline: 0.2px solid #888; */
+}
+
+.button-wrapper:hover {
+    transition: all .3s ease-in-out;
+    opacity: 0.9
+}
+
+.operator {
+    background-color: #fe9241;
+    color: white;
+    cursor: pointer; 
+}
+
+.eql {
+    color: #fe9241;
+    font-weight: bolder;
+    
+}
